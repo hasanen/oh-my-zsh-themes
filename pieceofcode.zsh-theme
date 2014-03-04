@@ -1,4 +1,4 @@
-PROMPT='%{$fg_bold[white]%}%n@%m %{$fg_bold[cyan]%}%10~ %{$reset_color%}% $(rvm_prompt_info) %{$fg_bold[blue]%}$(git_prompt_short_sha)$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}%
+PROMPT='%{$fg_bold[cyan]%}%10~ %{$reset_color%}% $(rvm_prompt_info) %{$fg_bold[blue]%}$(git_prompt_short_sha)$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}%
 
 %{$fg_bold[white]%}→ %{$reset_color%}'
 

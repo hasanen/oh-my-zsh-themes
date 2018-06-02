@@ -1,4 +1,5 @@
-PROMPT='%{$fg_bold[cyan]%}%1/ %{$reset_color%}% %{$fg_bold[blue]%}$(git_prompt_short_sha)$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}% %{$fg_bold[white]%} → %{$reset_color%}'
+PROMPT='%{$fg_bold[cyan]%}%1/ %{$reset_color%}% %{$fg_bold[blue]%}$(git_prompt_short_sha)$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}%|
+%{$fg_bold[white]%}$ %{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="|%{$fg_bold[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
